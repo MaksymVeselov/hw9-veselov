@@ -1,0 +1,12 @@
+@import "common/reset.css";
+@import "common/common.css";
+@import "common/varibles.css";
+
+@import "components/header.css";
+@import "components/services.css";
+@import "components/product.css";
+@import "components/our_team.css";
+@import "components/email.css";
+@import "components/data.css";
+@import "components/footer.css";
+@import "components/totop.css";

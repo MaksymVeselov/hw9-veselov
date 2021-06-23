@@ -1,0 +1,20 @@
+footer{
+   background-color: var(--second-bg-color) ;
+   height: 111px;
+}
+.icon ul{
+display: flex;
+flex-wrap: wrap;
+}
+.down .row{
+   padding-top: 40px;
+}
+.icon li{
+   margin-left: 20px;
+}
+.bottom_text p{
+font-size: 16px;
+line-height: 26px;
+font-weight: 400;
+color: #b8b8b8;
+}

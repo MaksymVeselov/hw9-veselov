@@ -1,0 +1,107 @@
+.team_foto{
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 15px;
+   position: relative;
+}
+.foto{
+   max-width: 25%;
+   padding-right: 15px;
+   position: relative;
+
+}
+.baner_block {
+   max-width: 30%;
+}
+.content_block{
+   max-width: 70%;
+   margin-left: 45px;
+}
+.third{
+   display: flex;
+   list-style: none;
+   padding: 30px 0;
+}
+.third li a{
+   text-decoration: none;
+   opacity: 0.8;
+   opacity: 0.8;
+   font-size: 18px;
+   line-height: 24px;
+   font-weight: 400;
+   font-style: italic;
+   letter-spacing: 0.05em;
+   color: var(--content-text-color);
+}
+.our_accounts{
+   text-align: left;
+}
+.third li{
+   justify-content: start;
+   padding-right: 50px;
+}
+.team_info p{
+   opacity: 0.7;
+font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+color: var(--content-text-color);
+padding-bottom: 20px;
+}
+.team_info h3{
+   opacity: 0.8;
+font-size: 30px;
+line-height: 1.2;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.01em;
+color: var(--content-text-color);
+margin-top: 15px;
+padding-bottom: 18px;
+}
+.top_block h2{
+   opacity: 0.8;
+font-size: 42px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.01em;
+color: var(--content-text-color);
+}
+.top_block p{
+   opacity: 0.7;
+font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+color: var(--content-text-color);
+}
+.second_redline{
+   width: 132px;
+height: 3px;
+background-color: var(--main-bg-color);
+margin-top: 30px;
+}
+.top_block{
+   padding: 60px 0;
+}
+.foto_text{
+   position: absolute;
+   bottom: 0;
+   text-align: center;
+   background-color: #575654;
+   color: #f5f0dd;
+   width: 93%;
+   display: none;
+}
+.foto:hover .foto_text{
+   display: block;
+}
+.foto_text p{
+  font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 0.01em;
+   color: #ffffff;
+}
+.third a:hover{
+   color: var(--main-bg-color);
+}

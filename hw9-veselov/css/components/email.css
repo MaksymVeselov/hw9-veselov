@@ -1,0 +1,56 @@
+.email{
+   background-color: var(--second-bg-color);
+   margin-top: 100px;
+}
+.email h4{
+   opacity: 0.8;
+font-size: 42px;
+line-height: 24px;
+font-weight: 700;
+letter-spacing: 0.025em;
+color: var(--text-second-color);
+padding: 50px 0;
+}
+.email p{
+   opacity: 0.8;
+font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+color:  var(--text-second-color);
+}
+.type{
+   width: 521px;
+height: 79px;
+opacity: 0.7;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+letter-spacing: 0.025em;
+color: #2c2c2c;
+padding-left: 40px;
+border-radius: 5px;
+border-style: none;
+}
+.thrid_button{
+   width: 214px;
+height: 79px;
+background-color: var(--main-bg-color);
+font-size: 18px;
+line-height: 34px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.025em;
+color:  var(--text-second-color);
+border-radius: 5px;
+border-style: none;
+}
+.email_wrapper{
+   text-align: center;
+   padding: 70px 0;
+}
+.email_wrapper form{
+   padding: 40px 0;
+}
+.email_wrapper form input{
+   margin-right: 5px;
+}
